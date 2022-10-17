@@ -1,0 +1,25 @@
+
+ATIVIDADE 1 PROZ TECNOLOGIA	LÓGICA
+RECEITA DE BOLO
+Pedro foi ao supermercado e comprou ovos, leite, farinha, açúcar, manteiga e achocolatado em pó para fazer um bolo de chocolate. 
+Como ele nunca fez um bolo antes, ele está bastante confuso e perdido. 
+Auxilie Pedro construindo uma sequência lógica dos passos necessários para a preparação desse bolo. 
+_________________________________________________________________________________________________________________
+SEQUÊNCIA LÓGICA:
+"Voltar ao mercado e comprar fermento! Bolo sem fermento? Em pleno 2022, ano de copa, ano de eleição...";
+"Voltar para casa memorizando que bolo precisa de fermento";
+"Vá para a cozinha, reúna todos os produtos comprados no mercado";
+"Pegue uma forma média e a unte com manteiga, em seguida utilize farinha de trigo para cobrir a forma untada";
+"Pegue um recipiente médio e uma colher grande";
+"Pegue um recipiente pequeno";
+"Quebre o ovo lateralmente, remova a casca e deixe o ovo no recipiente pequeno. Repita este processo por 4 vezes";
+"No recipiente médio, coloque o conteúdo do recipiente pequeno, 2 xícaras de açúcar e 4 colheres de chocolate em pó. Logo após, misture com a colher";
+"Coloque 2 colheres de manteiga em uma panela limpa";
+"Derreta a manteiga, adicione ao recipiente médio e misture com a colher novamente";
+"Em uma panela separada, ferva 1 xícara de leite";
+"Adicione ao recipiente médio 3 xícaras de farinha de trigo, o leite fervido e misture com a colher novamente";
+"Acrescente 2 colheres de fermento e misture até tudo incorporar";
+"Transfira o conteúdo do recipiente médio para a forma untada.";
+"Leve a forma ao forno preaquecido a 250º por cerca de 20 minutos.";
+"Após esse tempo, verifique se o bolo está totalmente assado fazendo um pequeno furo no bolo com uma faca.";
+"Caso ainda não esteja pronto, diminua a temperatura para 180 °C e deixe mais 10 minutos";
