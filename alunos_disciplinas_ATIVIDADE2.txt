@@ -1,0 +1,16 @@
+
+ATIVIDADE 1 PROZ TECNOLOGIA	LÓGICA IMPERATIVA
+
+Instruções do projeto: Em uma sala de aula, há vinte e cinco alunos.
+Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M). Eles são divididos conforme a ilustração 1 em anexo.
+Depois de um tempo, chegaram mais onze alunos nessa turma e o professor organizou-a conforme a ilustração 2 em anexo.
+No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, percebeu que um aluno que gosta de uma das disciplinas havia trocado de lugar com alguém que prefere a outra, e a turma ficou organizada conforme a ilustração 3 em anexo.
+
+Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um. 
+___________________________________________________________________________________
+RESOLUÇÃO:
+- O professor verifica o ultimo mapa de sala feito e confirma que possui uma base de informação.
+- Logo após ele pede para que levantem a mão os alunos que gostam de português.
+- Logo após ele pede para que levantem a mão os alunos que gostam de mátemática.
+- Em seguida ele percebe que houve uma mudança no número de alunos que gostam de cada matéria.
+- Para finalizar, ele pede para que levante a mão o(s) aluno(s) que mudaram de opinião recentemente, o que faz com que ele saiba precisamente o local onde houve a mudança e também perceba que não houve troca de alunos, mas sim a mudança de gosto de um único aluno.
