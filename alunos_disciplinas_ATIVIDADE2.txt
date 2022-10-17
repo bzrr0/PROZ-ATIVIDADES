@@ -1,5 +1,4 @@
-
-ATIVIDADE 1 PROZ TECNOLOGIA	LÓGICA IMPERATIVA
+ATIVIDADE 2 PROZ TECNOLOGIA	LÓGICA IMPERATIVA
 
 Instruções do projeto: Em uma sala de aula, há vinte e cinco alunos.
 Entre eles, existem os grupos dos que gostam de Português (P) e os que gostam de Matemática (M). Eles são divididos conforme a ilustração 1 em anexo.
