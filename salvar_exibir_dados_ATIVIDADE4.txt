@@ -1,0 +1,20 @@
+ALGORITMO: DadosPessoais
+
+Var 	nome, endereco, cidade: caracteres
+	cpf, rg, confirmar: inteiros
+Inicio
+	Escreva("############Olá, bem vindo ao Sistema de Cadastros############\n")
+	Escreva("Por favor informar nome completo:\n")
+	Leia nome
+	Escreva("Informar endereço:\n")
+	Leia endereco
+	Escreva("Este endereço corresponde a qual cidade?\n")
+	Leia cidade
+	Escreva("Perfeito, agora precisamos confirmar sua identidade\n")
+	Escreva("Informar RG(apenas números):\n")
+	Leia rg
+	Escreva("Informar CPF(apenas números):\n")
+	Leia cpf
+	Escreva("Seguem os dados informados:\n")
+	Escreva("Nome: ", nome"\nEndereço: ", endereco"\nCidade: ", cidade"\nCPF: ", cpf"\nRG: ", rg)
+Fim
