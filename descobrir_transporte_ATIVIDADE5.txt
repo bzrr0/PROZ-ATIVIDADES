@@ -1,0 +1,119 @@
+Algoritmo "meio_de_transporte"
+// Disciplina   : [Lógica Imperativa]
+// Professor   : Ravi Antunes
+// Descrição   : Descubra qual meio de transporte está pensando
+// Autor(a)    : Henrique Bezerra de Jesus
+// Data atual  : 23/10/2022
+Var
+// Seção de Declarações das variáveis
+meio_transporte, pedal, motor_a, meia_duzia_pessoas, trilhos, esportivo:int
+obras_contrucao, cacamba, helice_topo, emergencia, submerso, motor_p:int
+mais_cinquenta, definir:int
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Olá! Sou um algoritmo inteligente que pode descobrir em qual transporte você está pensando. =D");
+Escreva("O transporte é pela terra, pelo céu ou pelo mar?");
+Escreva("1.Terra\n2.Céu\n3.Mar");
+Leia meio_transporte;
+Se meio_transporte=1 entao
+   Escreva("Certo, o transporte em questão tem pedal?");
+   Escreva("1.Sim\n2.Não");
+   Leia(pedal);
+   Se pedal=1 entao
+       Escreva("Ok, o transporte em questão tem motor?");
+       Escreva("1.Sim\n2.Não");
+       Leia motor_a;
+       Se motor_a=1 entao
+          Escreva("Nesse caso, o meio de transporte em que está pensando é a Moto!");
+       Senão
+          Escreva("Bom, então é uma Bicicleta, correto?!");
+       Fimse
+   Senao
+       Escreva("Então, o veículo que está pensando transporta mais de uma dúzia de pessoas?");
+       Escreva("1.Sim\n2.Não");
+       Leia meia_duzia_pessoas;
+       Se meia_duzia_pessoas=1 entao
+          Escreva("O transporte utiliza trilhos para se locomover?");
+          Escreva("1.Sim\n2.Não");
+          Leia trilhos;
+          Se trilhos=1 entao
+             Escreva("Ah sim, então você está pensando em um Trem!");
+          Senão
+             Escreva("Demorei mas descobri que se trata de um Ônibus!");
+          Fimse
+   Senao
+       Escreva("Certo, mas existem modelos esportivos desse tipo de transporte?");
+       Escreva("1.Sim\n2.Não");
+       Leia esportivo;
+       Se esportivo=1 entao
+          Escreva("Isso foi fácil! É um carro! =D");
+   Senao
+       Escreva("Puts, mas esse transporte é utilizado em obras de construção?");
+       Escreva("1.Sim\n2.Não");
+       Leia obras_construcao;
+       Se obras_construcao=1 entao
+          Escreva("E tem caçamba?");
+          Escreva("1.Sim\n2.Não");
+          Leia cacamba;
+          Se cacamba=1 entao
+             Escreva("Ora, mas é claro que se trata de um caminhão!");
+          Senao
+             Escreva("Ora, mas então só pode ser um Trato!");
+          Fimse
+       Fimse
+Se meio_transporte=2 entao
+   Escreva("Opa, e este veículo em questão tem motor?");
+   Escreva("1.Sim\n2.Não");
+   Leia motor_b;
+   Se motor_b=1 entao
+       Escreva("Ok, e possui uma hélice no topo?");
+       Escreva("1.Sim\n2.Não");
+       Leia helice_topo;
+       Se helice_topo=1 entao
+          Escreva("Agora ficou evidente de que estamos falando de um Helicóptero!");
+       Senão
+          Escreva("Bom, só pode ser um avião");
+       Fimse
+   Senao
+       Escreva("Entendo, mas esse transporte pode ser usado em situações de emergência?");
+       Escreva("1.Sim\n2.Não");
+       Leia emergencia;
+       Se emergencia=1 entao
+          Escreva("Você é hardcore! Está pensando no Paraquedas!!");
+       Senão
+          Escreva("HM, um balão ^^");
+       Fimse
+   Fimse
+Se meio_transporte=3 entao
+   Escreva("Hmmm, e esse transporte funciona submerso?");
+   Escreva("1.Sim\n2.Não");
+   Leia submerso;
+   Se submerso=1 entao
+       Escreva("Isso facilita meu processamento! É um Submarino!!");
+   Senao
+       Escreva("Esse veículo precisa necessariamente ter um motor?");
+       Escreva("1.Sim\n2.Não");
+       Leia motor_p;
+       Se motor_p=1 entao
+          Escreva("E esse mesmo veículo tem um comprimento acima de 50 metros?");
+          Escreva("1.Sim\n2.Não");
+          Leia mais_cinquenta;
+          Se mais_cinquenta=1 entao
+             Escreva("Então só pode ser um Navio!");
+          Senao
+             Escreva("Então só pode ser uma Lancha! O tamanho entregou fácil a resposta");
+          Fimse
+       Senao
+          Escreva("Essa é a última, o transporte em questão serve para definir outros transportes parecidos?");
+          Escreva("1.Sim\n2.Não");
+          Leia definir;
+          Se definir=1 entao
+             Escreva("Então é um Barco, já que o termo Barco define Navio e Lancha também!");
+          Senao
+             Escreva("Então você é doooido!!!");
+          Fimse
+       Fimse
+   Fimse
+Fimse
+          
+Fimalgoritmo
