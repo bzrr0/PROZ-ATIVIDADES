@@ -1,0 +1,34 @@
+Algoritmo "func_maiornota"
+// Disciplina   : [Lógica Imperativa]
+// Professor   : Ravi Antunes
+// Descrição   : Cadastro de Notas de Alunos e definição de melhor nota.
+// Autor(a)    : Henrique Bezerra de Jesus
+// Data atual  : 23/10/2022
+Var
+// Seção de Declarações das variáveis 
+nome:caractere
+nota, maior_nota, maior_nota_nome:real
+confirmar:inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+maior_nota<-0
+Escreva("Iniciando cadastro de notas...");
+//Estrutura de repetição com teste no final para declarar notas e salvar sempre a maior
+Repita
+   Escreva("Por favor informar o nome do aluno: ");
+   Leia nome;
+   Escreva("Por favor informar a nota do aluno: ");
+   Leia nota;
+   Se (nota>maior_nota) entao
+      maior_nota<-nota E maior_nota_nome<-nome
+   Fimse
+   Escreva("Gostaria de inserir um novo cadastro?");
+   Escreva("1.SIM\n2.NÃO");
+   Leia confirmar;
+Ate confirmar=0
+// No final do processo, é informado o nome do aluno que teve a maior nota, seguido da nota obtida.
+Escreva("A maior nota cadastrada corresponde ao aluno: ");
+Escreva maior_nota_nome;
+Escreva("A nota do aluno foi de: ");
+Escreva maior_nota;
+Fimalgoritmo
