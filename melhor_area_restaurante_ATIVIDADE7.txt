@@ -1,0 +1,36 @@
+Algoritmo "qual_area_restaurante"
+// Disciplina   : [Lógica Imperativa]
+// Professor   : Ravi Antunes
+// Descrição   : Algoritmo para definir em qual área pessoas devem ser alocadas
+// Autor(a)    : Henrique Bezerra de Jesus
+// Data atual  : 24/10/2022
+Var
+// Seção de Declarações das variáveis 
+fumante, animal, juntar_mesas:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+fumante<-0
+animal<-0
+juntar_mesas<-0
+Escreva("Iniciando sistema de perguntas, por favor responder atentamente");
+Escreva("Seria interessante uma área para fumantes.");
+Escreva("1.VERDADEIRO\n2.FALSO");
+Leia fumante;
+Escreva("Existe um animal de estimação presente.");
+Escreva("1.VERDADEIRO\n2.FALSO");
+Leia animal;
+Escreva("É necessário uma mesa para 5 pessoas ou mais.");
+Escreva("1.VERDADEIRO\n2.FALSO");
+Leia juntar_mesas;
+
+Se fumante=1 OU animal=1 entao
+   Escreva("O local adequado para alocação é a Área Externa.");
+Senao
+   Se juntar_mesas=1 entao
+      Escreva("O local adequado para alocação é o 1º Andar.")
+   Fimse
+Senao
+   Escreva("O local adequado para alocação é o Térreo");
+Fimse
+Fimalgoritmo

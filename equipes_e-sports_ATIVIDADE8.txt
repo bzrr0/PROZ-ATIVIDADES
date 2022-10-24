@@ -1,0 +1,27 @@
+Algoritmo "equipes_e-sports"
+// Disciplina   : [Lógica Imperativa]
+// Professor   : Ravi Antunes
+// Descrição   : Algoritmo para definir em qual área pessoas devem ser alocadas
+// Autor(a)    : Henrique Bezerra de Jesus
+// Data atual  : 24/10/2022
+Var
+// Seção de Declarações das variáveis 
+nome_equipe:caractere
+jogador:inteiro
+Procedimento uai
+inicio
+   jogador<-1
+   enquanto (jogador<=5) faca
+      escreva(nome_equipe)
+      escreva(" - ")
+      escreva(jogador)
+      escreval(" ")
+      jogador<-jogador+1
+   fimenquanto
+fimprocedimento
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva("Por favor insira o nome de sua equipe: ")
+Leia(nome_equipe)
+uai
+Fimalgoritmo
