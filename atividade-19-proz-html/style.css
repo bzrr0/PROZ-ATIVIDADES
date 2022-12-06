@@ -1,0 +1,24 @@
+h1 {
+	margin: 10px 5px 10px 5px;
+    padding: 100px 5px 10px 5px;
+    color: red;
+}
+ol {
+    margin: 10px 5px 10px 5px;
+    padding: 100px 5px 10px 5px;
+    color: blue;
+}
+img {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+a{
+    margin-left: 65rem;
+    font-size: larger;
+    text-decoration: none;
+    color:brown;
+}
+p{
+    text-align: justify;
+    color: black;
+}
