@@ -1,12 +1,16 @@
 h1 {
+    height: 100%;
 	margin: 10px 5px 10px 5px;
     padding: 100px 5px 10px 5px;
     color: red;
+    justify-content: center;
 }
 ol {
+    height: 100%;
     margin: 10px 5px 10px 5px;
     padding: 100px 5px 10px 5px;
     color: blue;
+    
 }
 img {
     margin-left: 100px;
@@ -21,4 +25,14 @@ a{
 p{
     text-align: justify;
     color: black;
+}
+img{
+    width: 100%;
+    align-items: center;
+}
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
