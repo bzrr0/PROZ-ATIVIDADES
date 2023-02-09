@@ -1,0 +1,20 @@
+ATIVIDADE 2 - Bancos de Dados I
+
+O desenvolvimento de um projeto de banco de dados passa por fases importantes para a sua implementação, como a de projeto conceitual. Diante disso, crie uma entidade que tenha atributos simples, composto e multivalorado.
+
+
+Entidade: ClienteUsuário Steam
+
+Atributos simples: Nome, Endereço, Telefone e Email.
+Atributos compostos: Data de nascimento (XXdia/XXmês/XXXXano)
+Atributos multivalorados: Lista de Desejos, Lista de Jogos na Biblioteca
+
+Exemplo:
+
+Nome: Henrique Bezerra
+Endereço: Rua Tal, 123, Bairro X, Cidade Y, Estado Z
+Telefone: (11) 12345 6789
+Email: abcdefg@gmail.com
+Data de nascimento: 32/02/1960
+Lista de Desejos: Diablo IV
+Lista de Jogos na Biblioteca: TESV - Skyrim, CSGO, Project Zomboid, ....
