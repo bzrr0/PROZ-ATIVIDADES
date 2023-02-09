@@ -1,0 +1,13 @@
+ATIVIDADE 1 - Banco de dados I
+
+O Sistema de Gerenciamento de Bancos de Dados é um conjunto de programas que serve para gerenciar um ou mais bancos de dados. Sendo assim, pesquise sobre os bancos de dados mais utilizados no mercado de trabalho e descreva dois deles.
+
+MySQL: É um sistema de gerenciamento de banco de dados relacional open source altamente popular. Ele é amplamente utilizado para aplicativos web devido a sua facilidade de uso e capacidade de escalabilidade.
+
+Microsoft SQL Server: É um sistema de gerenciamento de banco de dados relacional desenvolvido pela Microsoft. É amplamente utilizado em grandes empresas devido à sua robustez e escalabilidade, bem como à sua integração com outras tecnologias da Microsoft, como o Windows e o .NET.
+
+Oracle Database: É um sistema de gerenciamento de banco de dados relacional comercial altamente robusto e escalável. É amplamente utilizado em grandes empresas devido à sua capacidade de lidar com grandes volumes de dados e suporte para missões críticas.
+
+PostgreSQL: É um sistema de gerenciamento de banco de dados relacional open source altamente avançado e flexível. É amplamente utilizado para aplicativos que exigem recursos avançados, como suporte para dados geoespaciais e processamento de dados em tempo real.
+
+MongoDB: É um banco de dados NoSQL popular que armazena os dados em formato de documentos, em vez de tabelas. É amplamente utilizado em aplicativos web devido à sua facilidade de uso e capacidade de lidar com grandes volumes de dados não estruturados.
