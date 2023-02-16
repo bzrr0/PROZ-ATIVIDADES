@@ -1,0 +1,6 @@
+Pesquise uma ilustração que representa a arquitetura cliente-servidor e, com base na imagem, explique o seu funcionamento.
+=======================================================================================================
+Usuário através de um dispositivo, se conecta em uma aplicação Web, que está localizada em um servidor.
+O Servidor detém todos os recursos e dados. O Cliente acessa os recursos quando quer, dependendo da liberação dos mesmos, e se comunica com o servidor através de uma linguagem e um protocolo http.
+Funciona basicamente como a relação locutor-interlocutor na linguagem humana(independente do idioma): o locutor inputa dados, que são interpretados pelo interlocutor e, de acordo com referências pré estabelecidas e informações salvas, retorna uma resposta.
+=======================================================================================================
