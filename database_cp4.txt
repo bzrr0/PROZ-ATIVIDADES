@@ -1,0 +1,74 @@
+De acordo com os conceitos estudados, exiba os resultados das consultas das operações select, project, união, intersecção e diferença. Siga as instruções com base na tabela apresentada em anexo.
+TABELAS VERTICALIZADAS DEVIDO A FORMATAÇÃO
+
+- Mostre as informações apenas dos alunos aprovados. A aprovação é acima de 7,0;
+Select1 =  Nota > 7 (Aluno)
+=============================================================================================	
+P.NOME		- Vitória	- Luiz		- André		- Alan		- Figueiredo
+U.NOME	   	- Claudino	- Silva		- Carvalho	- Vilela	- Santos
+MATRÍCULA	- 5542		- 6215		- 4521		- 3285		- 4598
+SÉRIE	    	- 2º ano	- 1º ano	- 3º ano	- 1º ano	- 2º ano
+DICIPLINA	- Matemática	- Português	- Matemática	- História	- Geografia
+NOTA		- 7,0		- 8,0		- 9,5		- 8,0		- 9,0
+=============================================================================================
+
+_____________________________________________________________________________________________
+- Exiba as informações dos alunos do primeiro ano com nota maior ou igual a 8,0;
+Select2 =  Série = 1º ano and Nota >= 8 (Aluno)
+============================================
+P.NOME		- Luiz		- Alan		
+U.NOME	   	- Silva		- Vilela	
+MATRÍCULA	- 6215		- 3285		
+SÉRIE	    	- 1º ano	- 1º ano	
+DICIPLINA	- Português	- História	
+NOTA		- 8,0		- 8,0		
+============================================
+
+_____________________________________________________________________________________________
+- Exiba apenas os nomes e as notas dos alunos;
+PROJECT1 = π Nome, Nota (Aluno)
+=============================================================================================
+P.NOME		- Vitória	- Luiz		- André		- Alan		- Figueiredo
+U.NOME	   	- Claudino	- Silva		- Carvalho	- Vilela	- Santos
+NOTA		- 7,0		- 8,0		- 9,5		- 8,0		- 9,0
+=============================================================================================
+
+_____________________________________________________________________________________________
+- Crie uma tabela PROFESSOR que apresente apenas o primeiro e o último nome do professor;
+=============================================================================================
+P.NOME		- Ana		- Luiz		- Felipe	- Fernanda	- Daiane
+U.NOME		- Pereira	- Silva		- Santos	- Oliveira	- Gomes
+=============================================================================================
+
+_____________________________________________________________________________________________
+- Crie uma tabela ALUNO com o primeiro e o último nome de cada;
+=============================================================================================
+P.NOME		- Vitória	- Luiz		- André		- Alan		- Figueiredo
+U.NOME	   	- Claudino	- Silva		- Carvalho	- Vilela	- Santos
+=============================================================================================
+
+_____________________________________________________________________________________________
+- Mostre o resultado da união entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR;
+UNIÃO = Aluno U Professor
+==============================================================================================================================================================
+
+P.NOME		- Ana		- Luiz		- Felipe	- Fernanda	- Daiane	- Vitória	- André		- Alan		- Figueiredo
+U.NOME		- Pereira	- Silva		- Santos	- Oliveira	- Gomes		- Claudino	- Carvalho	- Vilela	- Santos
+==============================================================================================================================================================
+
+_____________________________________________________________________________________________
+- Exiba o resultado da intersecção entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR;
+INTERSECÇÃO = Aluno Ո Professor
+===========================
+P.NOME		- Luiz
+U.NOME		- Silva
+===========================
+
+_____________________________________________________________________________________________
+- Exiba o resultado da diferença entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR. 
+DIFERENÇA = Aluno ≠ Professor
+==============================================================================================================================================
+P.NOME		- Ana		- Felipe	- Fernanda	- Daiane	- Vitória	- André		- Alan		- Figueiredo
+U.NOME		- Pereira	- Santos	- Oliveira	- Gomes		- Claudino	- Carvalho	- Vilela	- Santos
+==============================================================================================================================================
+
