@@ -1,0 +1,11 @@
+No ano de 2022, diversas empresas sofreram tentativas de ataques cibernéticos que poderiam impactar diretamente a segurança dos dados. Portanto, é recomendado que funcionários e clientes de lojas virtuais sempre mantenham suas senhas de acesso atualizadas, alterando-as a cada três meses. Pensando nisso, cite pelo menos três métodos para melhorar essas senhas, com foco em fortalecê-las.
+
+====================================================================
+Com o objetivo de fortalecer senhas e aumentar a segurança de dados, seguem abaixo três métodos que podem ser adotados por funcionários e clientes de lojas virtuais:
+
+1. Crie senhas longas e complexas: use combinações de letras, números e caracteres especiais, evitando palavras comuns e sequências simples, como "1234". Senhas longas são mais difíceis de serem quebradas por meio de ataques de força bruta.
+
+2. Evite senhas iguais para vários serviços: é comum que muitas pessoas usem a mesma senha para diversos serviços, o que pode comprometer a segurança em caso de vazamentos ou ataques. Utilize senhas diferentes para cada conta, especialmente para as mais críticas, como contas bancárias ou de e-mail.
+
+3. Use a autenticação de dois fatores: a autenticação de dois fatores adiciona uma camada extra de segurança, exigindo que o usuário forneça duas formas de identificação antes de acessar a conta, como uma senha e um código de autenticação temporário enviado por SMS, por exemplo. Isso pode ajudar a evitar o acesso não autorizado mesmo em caso de vazamento ou comprometimento de senhas.
+====================================================================
