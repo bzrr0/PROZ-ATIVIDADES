@@ -1,0 +1,52 @@
+Crie um banco de dados, adicione tabelas e determine quais são os atributos de cada uma. Em seguida, execute um trigger que se relacione com algum comando, como insert, select, delete ou update.
+
+
+--Criando database
+CREATE DATABASE exemplo;
+
+--Criando tabelas
+CREATE TABLE clientes (
+    id INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    endereco VARCHAR(100) NOT NULL,
+    telefone VARCHAR(20) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE pedidos (
+    id INT NOT NULL AUTO_INCREMENT,
+    numero_pedido INT NOT NULL,
+    data_pedido DATE NOT NULL,
+    valor_total DECIMAL(10,2) NOT NULL,
+    id_cliente INT NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id)
+);
+
+--Criando trigger
+CREATE TRIGGER atualiza_total_pedidos
+AFTER INSERT ON pedidos
+FOR EACH ROW
+BEGIN
+    UPDATE clientes
+    SET total_pedidos = total_pedidos + NEW.valor_total
+    WHERE id = NEW.id_cliente;
+END;
+
+--Este trigger será acionado automaticamente sempre que um novo registro for inserido na tabela "pedidos". Ele irá atualizar o valor do campo "total_pedidos" da tabela "clientes" correspondente ao cliente que fez o novo pedido, adicionando o valor total do novo pedido.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
