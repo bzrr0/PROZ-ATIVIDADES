@@ -1,0 +1,14 @@
+Uma empresa de vendas tem um banco de dados com informações sobre os seus produtos. Ela precisa criar um relatório que faça um levantamento diário da quantidade de produtos comprados por dia. Para ajudar a empresa, crie um procedure para agilizar esse processo.
+
+
+CREATE PROCEDURE levantamento_diario()
+BEGIN
+  SELECT data_compra, SUM(quantidade) AS total_comprado
+  FROM compras
+  GROUP BY data_compra;
+END;
+
+--A procedure faz uma consulta na tabela "compras" e calcula a soma da quantidade de produtos comprados por dia, agrupando os resultados por data de compra. 
+--Ao executá-la, será gerado um relatório com a quantidade total de produtos comprados por dia. 
+--A empresa pode agendar a execução dessa procedure diariamente para automatizar o processo de levantamento de informações.
+--É importante garantir que a tabela "compras" esteja corretamente preenchida com informações sobre as compras realizadas pela empresa.
