@@ -1,0 +1,39 @@
+Desenvolva um banco de dados e relacione tabelas através de chaves estrangeiras ou nomes de colunas iguais. Siga as instruções:
+crie uma base de dados; 
+crie tabelas nessa base de dados;
+em cada tabela, adicione atributos;
+insira dados em cada tabela;
+utilize os comandos Joins para realizar consultas nas tabelas. 
+
+
+
+
+CREATE TABLE artista(
+  id_artista SERIAL PRIMARY KEY,
+  NOME VARCHAR(25) NOT NULL
+)
+
+INSERT INTO artista (nome) VALUES
+  ('Camille Saint-Saens'),
+  ('Chico Buarque');
+  
+  SELECT * FROM artista
+
+
+
+  CREATE TABLE musica (
+  id_musica SERIAL PRIMARY KEY,
+  nome VARCHAR (50) NOT NULL,
+  duracao_seg INT NOT NULL
+);
+
+
+INSERT INTO musica (nome, duracao_seg) VALUES 
+  ('Danse Macabre', 430),
+  ('Aquarium', 150),
+  ('Le Carnaval des Animaux', 1398),
+  ('Valsinha', 126),
+  ('Construção', 384),
+  ('Joao e Maria', 216);
+  
+  SELECT * FROM musica
