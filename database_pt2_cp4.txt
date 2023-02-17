@@ -1,0 +1,14 @@
+Uma loja tem um banco de dados que contém todo o controle de vendas de produtos e de cadastro de clientes. Pensando nisso, crie uma função para somar todos os clientes que foram cadastrados na loja durante um dia.
+
+
+CREATE FUNCTION clientes_cadastrados(data DATE) RETURNS INTEGER
+BEGIN
+  DECLARE total_clientes INTEGER;
+  SELECT COUNT(*) INTO total_clientes FROM clientes WHERE data_cadastro = data;
+  RETURN total_clientes;
+END;
+
+--A função recebe um parâmetro de entrada "data" do tipo DATE, que representa o dia em que se deseja calcular a quantidade de clientes cadastrados. 
+--O corpo da função faz uma consulta na tabela "clientes" contando o número de registros com a data de cadastro igual à data fornecida como parâmetro. 
+--O resultado é armazenado na variável "total_clientes" e retornado pela função.
+--É importante garantir que a tabela "clientes" esteja corretamente preenchida com informações sobre os clientes cadastrados.
